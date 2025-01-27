@@ -1,0 +1,25 @@
+/* font-family: "Roboto", serif;
+font-family: "Lora", serif; */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.svg-arrow {
+    width: 12px;
+    height: 14px;
+    fill: white;
+}
+
+.svg-tel {
+    width: 18px;
+    height: 24px;
+    fill: black;
+}
+.svg-email {
+    width: 24px;
+    height: 24px;
+    fill: #574e56;
+}
