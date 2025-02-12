@@ -14,9 +14,236 @@
         <title>Vite App</title>
     </head>
     <body>
-        <div id="app"></div>
-        <svg class="svg-email">
-            <use href="./src/image/icons/svg-sprite.svg#svg-email" >
-        </svg>
+        <div id="app">   
+        </div>                       
+        <header class="header">
+            <div class="header-top">
+                <div class="container">
+                    <nav class="header-nav">
+                        <a class="text-uppercase" href="#!">обо мне</a>
+                        <a class="text-uppercase" href="#!">портфолио</a>
+                        <a class="text-uppercase" href="#!">контакты</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="header-content">
+                <div class="container">
+                    <div class="header-title">
+                        <h1 class="h1">Екатерина Мелисова</h1>
+                        <h2 class="text-uppercase">ДИЗАЙНЕР-ИНТЕРЬЕРА</h2>
+                    </div>
+                    <div class="start-video">
+                        <img
+                            src="./src/image/gallery-box/picter2.jpg"
+                            alt="Постер видео"
+                            width="237"
+                            height="178"
+                        />
+                        <div class="start-video__text">
+                            <div class="start-video__btn">
+                                <svg class="svg-arrow">
+                                    <use href="./src/image/icons/svg-sprite.svg#svg-arrow">
+                                </svg>
+                            
+                            </div>
+                            <p>Смотреть видео-презентацию</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+      
+        <div class="slider" role="region" aria-label="Паттерны">
+<div class="controls" role="group" aria-label="Управление слайдами">
+    <button class="button button-radio" aria-current="true" aria-label="Показать 1 из 4" ></button>
+    <button class="button button-radio" aria-label="Показать 2 из 4"></button>
+     <button class="button button-radio" aria-label="Показать 3 из 4"></button>
+     <div class="block-arrow">
+       <div class="border">
+     <button class="button button-prev " aria-label="Предыдущий" type="button"></button>
+</div>
+   <div class="border">
+     <button class="button button-next " aria-label="Следующий" type="button"></button>
+</div> 
+     </div>
+
+            
+</div>
+<div class="slides" aria-live="polite">
+    <div class="slide slide--active" role="group" aria-labelledby="item-1-label" id="carousel-item-1">
+        <img class="slide-img" src="./src/image/gallery-box/picter1.jpg" alt="Фото мебели">
+
+    </div>
+<div class="slide" role="group" aria-labelledby="item-2-label" id="carousel-item-2">
+ <img class="slide-img" src="./src/image/gallery-box/gallery2.webp" alt="Фото мебели">
+</div>
+<div class="slide" role="group" aria-labelledby="item-3-label" id="carousel-item-3">
+ <img class="slide-img" src="./src/image/gallery-box/gallery3.webp" alt="Фото мебели">
+</div>
+
+</div>
+        </div>
+        <main class="main">
+            <section class="portfolio">
+                <div class="container">
+                    <div class="portfolio__title"><h2 class="h2">Портфолио</h2></div>
+                    <div class="portfolio-content" >
+            
+<img  src="./src/image/gallery-box/1.jpg" alt="Фото"> 
+<img  src="./src/image/gallery-box/2.jpg" alt="Фото"> 
+<img  src="./src/image/gallery-box/3.jpg" alt="Фото">
+ 
+<img  src="./src/image/gallery-box/4.jpg" alt="Фото"> 
+<img  src="./src/image/gallery-box/5.jpg" alt="Фото"> 
+<img  src="./src/image/gallery-box/6.jpg" alt="Фото">
+ 
+<img  src="./src/image/gallery-box/7.jpg" alt="Фото"> 
+<img  src="./src/image/gallery-box/8.jpg" alt="Фото"> 
+<img  src="./src/image/gallery-box/9.jpg" alt="Фото"> 
+ 
+
+                    </div>
+
+
+                </div>
+            </section>
+            <section class="about">
+                <div class="container">
+<div class="about__title"><h2 class="h2 h2_white">Обо мне</h2>
+</div>
+
+<div class="about__content">
+    <div class="about__img">
+        <img src='./src/image/gallery-box/autor.jpg'  alt='Фото автора'/>
+    </div>
+    <div class="about__desc">
+        <div class="about__text">
+           <p> Более 20-ти лет активной работы дизайнером интерьера позволили мне накопить ценнейшие опыт и знания для создания роскошных 
+и респектабельных интерьеров, отвечающих всем требованиям даже самого взыскательного Заказчика, превращая его неясные фантазии и желания в настоящие эксклюзивные интерьеры любой сложности, в различных стилистических направлениях. </p>
+
+<p>Моё творческое кредо в профессии: «Дизайнера в проекте должно быть как можно меньше, а самая важная деталь при создании интерьера — это идея и искреннее отношение к проекту
+и заказчику».</p>
+        </div>
+        <div class="about__statistic">
+            <div class="about__statistic-item">
+                <p class="num">20</p>
+                <span>Лет опыта</span>
+            </div>
+               <div class="about__statistic-item">
+                <p class="num">300</p>
+                <span>Реализованных проектов</span>
+            </div>
+        </div>
+    </div>
+</div>
+                </div>
+            </section>
+            <section class="contacts">
+                <div class="container">
+                    <div class="contacts__title"><h2 class="h2">Контакты</h2>
+                    </div>
+                    <div class="contacts__content">
+                        <div class="contacts-form-wrapper">
+                            <form action="" class="contact-form">
+                                <div class="form-item"><input class="form-input" type="text" name="name" id="" placeholder="Ваше имя"/></div>
+                                <div class="form-item"><input class="form-input" type="email" name="email" id="" placeholder="Ваш  E-mail"/></div>
+                          <div class="form-item"> <textarea name="message" id=""  class="form-textarea" placeholder="Сообщение"></textarea></div>
+                              <div class="form-item"><button type="submit" class="btn">Отправить</button></div>
+                              
+                            </form>
+                        </div>
+                        <div class="contacts-list">
+                            <!--single item-->
+                            <div class="contact-list__item">
+                                <div class="contact-list__icon">                           
+                                 <svg class="svg-phone">
+                                    <use href="./src/image/icons/svg-sprite.svg#svg-phone">
+                                </svg>
+                                            
+                                </div>
+                                <div class="contact-list__text"><p class="text-uppercase">ТЕЛЕФОН:</p>
+                                    <a href="tel:89034384466">8 903 438-44-66</a>
+                                </div>
+
+                            </div>
+                                        <!--single item-->
+                            <div class="contact-list__item">
+                                <div class="contact-list__icon">                           
+                                 <svg class="svg-instagram">
+                                    <use href="./src/image/icons/svg-sprite.svg#svg-instagram">
+                                </svg>
+                                            
+                                </div>
+                                <div class="contact-list__text"><p class="text-uppercase">INSTAGRAM:</p>
+                                    <a href="#">melisova_studio</a>
+                                </div>
+
+                            </div>
+                                 <!--single item-->
+                          
+                                 <!--single item-->
+                            <div class="contact-list__item">
+                                <div class="contact-list__icon">                           
+                                 <svg class="svg-email">
+                                    <use href="./src/image/icons/svg-sprite.svg#svg-email">
+                                </svg>
+                                            
+                                </div>
+                                <div class="contact-list__text"><p class="text-uppercase">Почта:</p>
+                                    <a href="mailto:Melisova@gmail.com">Melisova@gmail.com</a>
+                                </div>
+
+                            </div>
+                                                 <!--single item-->
+                            <div class="contact-list__item">
+                                <div class="contact-list__icon">                           
+                                 <svg class="svg-local">
+                                    <use href="./src/image/icons/svg-sprite.svg#svg-local">
+                                </svg>
+                                            
+                                </div>
+                                <div class="contact-list__text"><p class="text-uppercase">АДРЕС:</p>
+                                    <a href="#">г. Москва, ул. Мытная, д.7, стр.1
+</a>
+                                </div>
+
+                            </div>
+                                 <!--single item-->
+                            <div class="contact-list__item">
+                                <div class="contact-list__icon">                           
+                                 <svg class="svg-pinterest">
+                                    <use href="./src/image/icons/svg-sprite.svg#svg-pinterest">
+                                </svg>
+                                            
+                                </div>
+                                <div class="contact-list__text"><p class="text-uppercase">PINTEREST:</p>
+                                    <a href="#">www.pinterest.ru/melisova</a>
+                                </div>
+
+                            </div>
+                               
+                                 <div class="contact-list__item">
+                                <div class="contact-list__icon">                           
+                                 <svg class="svg-be">
+                                    <use href="./src/image/icons/svg-sprite.svg#svg-be">
+                                </svg>
+                                            
+                                </div>
+                                <div class="contact-list__text"><p class="text-uppercase">BEHANCE:</p>
+                                    <a href="#">www.behance.net/melisova
+</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer"><p>	&copy; 2019  Ekaterina Melisova
+
+</p></footer>
+        <script src="./src/js/carousel.js"></script>
+         <!-- <script src="./src/js/gallery.js"></script> -->
     </body>
 </html>
