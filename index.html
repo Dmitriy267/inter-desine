@@ -11,6 +11,7 @@
             rel="stylesheet"
         />
         <link rel="stylesheet" href="./src/css/main.css" />
+        <link rel="stylesheet" href="./src/css/media.css">
         <title>Vite App</title>
     </head>
     <body>
@@ -20,9 +21,9 @@
             <div class="header-top">
                 <div class="container">
                     <nav class="header-nav">
-                        <a class="text-uppercase" href="#!">обо мне</a>
-                        <a class="text-uppercase" href="#!">портфолио</a>
-                        <a class="text-uppercase" href="#!">контакты</a>
+                        <a class="text-uppercase" href="#about">обо мне</a>
+                        <a class="text-uppercase" href="#portfolio">портфолио</a>
+                        <a class="text-uppercase" href="#contacts">контакты</a>
                     </nav>
                 </div>
             </div>
@@ -84,12 +85,39 @@
 </div>
         </div>
         <main class="main">
-            <section class="portfolio">
+            <section class="portfolio" id="portfolio">
                 <div class="container">
                     <div class="portfolio__title"><h2 class="h2">Портфолио</h2></div>
                     <div class="portfolio-content" >
-            
-<img  src="./src/image/gallery-box/1.jpg" alt="Фото"> 
+ <div class="portfolio-card">
+    <img  src="./src/image/gallery-box/1.jpg" alt="Фото"> 
+ </div>  
+ <div class="portfolio-card">
+    <img  src="./src/image/gallery-box/2.jpg" alt="Фото"> 
+ </div> 
+ <div class="portfolio-card">
+    <img  src="./src/image/gallery-box/3.jpg" alt="Фото"> 
+ </div> 
+ <div class="portfolio-card">
+    <img  src="./src/image/gallery-box/4.jpg" alt="Фото"> 
+ </div> 
+ <div class="portfolio-card">
+    <img  src="./src/image/gallery-box/5.jpg" alt="Фото"> 
+ </div> 
+ <div class="portfolio-card">
+    <img  src="./src/image/gallery-box/6.jpg" alt="Фото"> 
+ </div> 
+ <div class="portfolio-card">
+    <img  src="./src/image/gallery-box/7.jpg" alt="Фото"> 
+ </div> 
+ <div class="portfolio-card">
+    <img  src="./src/image/gallery-box/8.jpg" alt="Фото"> 
+ </div> 
+ <div class="portfolio-card">
+    <img  src="./src/image/gallery-box/9.jpg" alt="Фото"> 
+ </div>          
+
+<!-- <img  src="./src/image/gallery-box/1.jpg" alt="Фото"> 
 <img  src="./src/image/gallery-box/2.jpg" alt="Фото"> 
 <img  src="./src/image/gallery-box/3.jpg" alt="Фото">
  
@@ -100,14 +128,14 @@
 <img  src="./src/image/gallery-box/7.jpg" alt="Фото"> 
 <img  src="./src/image/gallery-box/8.jpg" alt="Фото"> 
 <img  src="./src/image/gallery-box/9.jpg" alt="Фото"> 
- 
+  -->
 
                     </div>
 
 
                 </div>
             </section>
-            <section class="about">
+            <section class="about" id="about">
                 <div class="container">
 <div class="about__title"><h2 class="h2 h2_white">Обо мне</h2>
 </div>
@@ -138,7 +166,7 @@
 </div>
                 </div>
             </section>
-            <section class="contacts">
+            <section class="contacts" id="contacts">
                 <div class="container">
                     <div class="contacts__title"><h2 class="h2">Контакты</h2>
                     </div>

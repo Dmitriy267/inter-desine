@@ -12,6 +12,9 @@ body {
     font-size: 14px;
     line-height: 1.3; /*14*1.3=18.2*/
 }
+html {
+    scroll-behavior: smooth;
+}
 .h1,
 .h2 {
     font-family: 'Lora', serif;
@@ -388,6 +391,9 @@ textarea::placeholder {
     background-color: #574e56;
     border: 1px solid #000000;
     color: #fff;
+}
+.about__title {
+    margin-bottom: 97px;
 }
 
 .about__img {
